@@ -5,7 +5,7 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 ## 📅 Daily Learning Log
 | Day | Topic Covered             | Folder               |
 |-----|---------------------------|----------------------|
-| 1   | Python & Pandas | [Day1_Pandas](./Daily Progress/Day 1 - Pandas) |
+| 1   | Python & Pandas | [Day1_Pandas](<./Daily Progress/Day 1 - Pandas>) |
 | 2   | ...                       | ...                  |
 
 

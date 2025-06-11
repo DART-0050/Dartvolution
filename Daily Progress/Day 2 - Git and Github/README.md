@@ -11,8 +11,8 @@ I followed [this YouTube guide](https://youtu.be/S7XpTAnSDL4?si=LSAqEi_IW3e5VDxT
 - Watched an in-depth Git & GitHub tutorial
 - Practiced all major Git workflows in a new repo
 - Took clean notes on Git essentials and conflict resolution
-- Learned how to use branches, pull requests, merge, and rebase
-- Gained confidence in handling version control like a boss
+- Learned how to use branches, pull requests, merge, stash,reset and revert
+- Gained confidence in handling version control
 
 ---
 
@@ -44,3 +44,9 @@ A merge conflict occurs when two or more users modify the same file and attempt 
 5. Review, accept or reject conflicting changes  
 6. Add the file, commit, and push  
 7. Conflict resolved!  
+
+---
+
+### COMMANDS
+
+The commands and details regarding them are provided briefly in [Guide](<./Git & GitHub Guide.pdf>)

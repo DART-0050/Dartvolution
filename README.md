@@ -7,6 +7,7 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 |-----|---------------------------|----------------------|
 | 1   | Python & Pandas | [Day1_Pandas](<./Daily Progress/Day 1 - Pandas>) |
 | 2   | Git & GitHub Mastery| [Day2_Git_Github](<./Daily Progress/Day 2 - Git and Github>) |
+| 3   | Data Cleaning | [Day3_Data_Cleaning](<./Daily Progress/Day 3 - Data Cleaning>) |
 
 
 By: 

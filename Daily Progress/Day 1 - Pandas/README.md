@@ -1,25 +1,26 @@
 # Complete Pandas Tutorial
+
 A comprehensive tutorial on the Python Pandas library, updated to be consistent with best practices and features available in 2024.
 
-The tutorial can be watched [here](https://youtu.be/2uvysYbKdjM?si=8UnGt0bwLwo-eEQL)
+The tutorial can be watched (<https://youtu.be/2uvysYbKdjM?si=8UnGt0bwLwo-eEQL>)
 
 The code that is walked through in the tutorial is in [tutorial.ipynb](./tutorial.ipynb)
 
-# Getting Started with Pandas Locally
+## Getting Started with Pandas Locally
 
 To get started with Pandas locally, you can follow these steps to set up your environment and clone the recommended repository.
 
-## Setting Up Your Local Environment
+### Setting Up Your Local Environment
 
-### Step 1: Install Python
+#### Step 1: Install Python
 
 First, ensure you have Python installed on your system. You can download Python from the [official website](https://www.python.org/).
 
-### Step 2: Fork the Repository
+#### Step 2: Fork the Repository
 
 Fork the repository to your own GitHub account by visiting [complete-pandas-tutorial](https://github.com/KeithGalli/complete-pandas-tutorial) and clicking the "Fork" button in the top-right corner.
 
-### Step 3: Clone the Forked Repository
+#### Step 3: Clone the Forked Repository
 
 Clone your forked repository to your local machine. Open a terminal or command prompt and run:
 
@@ -30,7 +31,7 @@ cd complete-pandas-tutorial
 
 Replace `yourusername` with your actual GitHub username.
 
-### Step 4: Create a Virtual Environment (optional)
+#### Step 4: Create a Virtual Environment (optional)
 
 Creating a virtual environment is a good practice to manage dependencies for your projects. Run the following command:
 
@@ -41,10 +42,13 @@ python -m venv myenv
 Activate the virtual environment:
 
 - On Windows:
+
   ```sh
   myenv\Scripts\activate
   ```
+
 - On macOS/Linux:
+
   ```sh
   source myenv/bin/activate
   ```
@@ -52,15 +56,18 @@ Activate the virtual environment:
 To deactivate the virtual environment, run:
 
 - On Windows:
+
   ```sh
   myenv\Scripts\deactivate.bat
   ```
+
 - On macOS/Linux:
+
   ```sh
   deactivate
   ```
 
-### Step 5: Install Required Libraries
+#### Step 5: Install Required Libraries
 
 With the virtual environment activated, install the necessary libraries from the `requirements.txt` file:
 
@@ -68,20 +75,22 @@ With the virtual environment activated, install the necessary libraries from the
 pip install -r requirements.txt
 ```
 
-### Step 6: Open Your Code Editor
+#### Step 6: Open Your Code Editor
 
 You can use your favorite code editor like Visual Studio Code or PyCharm. Open the cloned repository folder in your code editor.
 
-### Step 7: Create a Jupyter Notebook
+#### Step 7: Create a Jupyter Notebook
 
 Create a new Jupyter Notebook file in your code editor:
 
 - In Visual Studio Code, click on the "New File" icon or press `Ctrl+N`, then save the file with a `.ipynb` extension.
 - In PyCharm, right-click on the project folder, select "New", and then "Jupyter Notebook".
 - **Else**, if these options don't work or you are using an editor that doesn't support Jupyter Notebooks, run the following command in your terminal:
+
   ```sh
   jupyter notebook
   ```
+
   This will open Jupyter Notebook in your web browser.
 
 ## Using Google Colab
@@ -90,7 +99,7 @@ If you prefer not to set up things locally, you can use Google Colab, which allo
 
 Go to [Google Colab](https://colab.research.google.com/) and start a new notebook. You can upload your dataset and start coding with Pandas immediately.
 
-# Python Pandas Cheat Sheet
+## Python Pandas Cheat Sheet
 
 This cheat sheet is a companion to the "Complete Python Pandas Data Science Tutorial."
 
@@ -117,6 +126,7 @@ df.tail(2)
 ```
 
 ## Loading Data
+
 Loading data into DataFrames from various file formats is crucial for real-world data analysis.
 
 ```python
@@ -131,6 +141,7 @@ olympics_data = pd.read_excel('./data/olympics-data.xlsx', sheet_name="results")
 ```
 
 ## Accessing Data
+
 Accessing different parts of the DataFrame allows for flexible data manipulation and inspection.
 
 ```python
@@ -156,7 +167,9 @@ df['A'].unique()
 df.shape
 df.size
 ```
+
 ## Filtering Data
+
 Filtering data is essential for extracting relevant subsets based on conditions.
 
 ```python
@@ -172,7 +185,9 @@ bios[bios['name'].str.contains("keith", case=False)]
 # Regex filters
 bios[bios['name'].str.contains(r'^[AEIOUaeiou]', na=False)]
 ```
+
 ## Adding/Removing Columns
+
 Adding and removing columns is important for maintaining and analyzing relevant data.
 
 ```python
@@ -191,7 +206,9 @@ coffee.rename(columns={'new_price': 'price'}, inplace=True)
 # Create new columns from existing ones
 coffee['revenue'] = coffee['Units Sold'] * coffee['price']
 ```
+
 ## Merging and Concatenating Data
+
 Merging and concatenating DataFrames is useful for combining different datasets for comprehensive analysis.
 
 ```python
@@ -204,7 +221,9 @@ usa = bios[bios['born_country']=='USA'].copy()
 gbr = bios[bios['born_country']=='GBR'].copy()
 new_df = pd.concat([usa, gbr])
 ```
+
 ## Handling Null Values
+
 Handling null values is essential to ensure the integrity of data analysis.
 
 ```python
@@ -217,7 +236,9 @@ coffee['Units Sold'].interpolate(inplace=True)
 # Drop rows with NaNs
 coffee.dropna(subset=['Units Sold'], inplace=True)
 ```
+
 ## Aggregating Data
+
 Aggregation functions like value counts and group by help in summarizing data efficiently.
 
 ```python
@@ -231,7 +252,9 @@ coffee.groupby(['Coffee Type'])['Units Sold'].mean()
 # Pivot table
 pivot = coffee.pivot(columns='Coffee Type', index='Day', values='revenue')
 ```
+
 ## Advanced Functionality
+
 Advanced functionalities such as rolling calculations, rankings, and shifts can provide deeper insights.
 
 ```python
@@ -248,7 +271,9 @@ bios['height_rank'] = bios['height_cm'].rank(ascending=False)
 # Shift
 coffee['yesterday_revenue'] = coffee['revenue'].shift(1)
 ```
+
 ## New Functionality
+
 The PyArrow backend offers optimized performance for certain operations, particularly string operations.
 
 ```python

@@ -1,0 +1,45 @@
+
+.       - Any Character Except New Line
+\d      - Digit (0-9)
+\D      - Not a Digit (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, newline)
+\S      - Not Whitespace (space, tab, newline)
+
+Anchors
+\b      - Word Boundary
+\B      - Not a Word Boundary
+^       - Beginning of a String
+$       - End of a String
+
+[]      - Matches Characters in brackets
+[^ ]    - Matches Characters NOT in brackets
+|       - Either Or
+( )     - Group
+
+Quantifiers:
+*       - 0 or More
++       - 1 or More
+?       - 0 or One
+{3}     - Exact Number
+{3,4}   - Range of Numbers (Minimum, Maximum)
+
+FLAGS
+
+- re.IGNORECASE : Ignores the case can be written as re.I
+- re.MULTILINE : Treats the string as multiple lines can be written as re.M
+- re.DOTALL : Treats the string as a single line can be written as re.S
+
+#### Sample Regexs ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+
+FUNCTIONS IN REGEX 
+- Findall() : Finds all the matches and prints
+- Sub() : Substitutes the matches with a string
+- Subn() : Substitutes the matches with a string and returns a tuple
+- Split() : Splits the string into a list
+- Match() : Returns a first match object if the pattern is found
+- Search() : Returns a first match object if the pattern is found
+- Finditer() : Returns an iterator yielding match objects its more discriptive 

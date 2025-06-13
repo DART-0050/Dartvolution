@@ -38,7 +38,7 @@ df.fillna(0, inplace=True)
 
 ## 📌 2. `dropna()` – Drop Rows or Columns with Missing Data
 
-### 🔧 Key Parameters
+### 🔧 Key Parameters for `dropna()`
 
 | Parameter | Description                                                    |
 | --------- | -------------------------------------------------------------- |
@@ -48,7 +48,7 @@ df.fillna(0, inplace=True)
 | `subset`  | Subset of columns to check                                     |
 | `inplace` | Modifies the DataFrame directly                                |
 
-### ✅ Examples
+### ✅ Examples for `dropna()`
 
 ```python
 # Drop rows with any NaN

@@ -13,5 +13,6 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 5   | Seaborn | [Day5,6_Seaborn](<./Daily Progress/Day 5,6- Seaborn>) |
 | 6   | Titanic | [Day7_Titanic](<./Daily Progress/Day 7 - The Titanic>) |
 | 7   | Scikit Learn Overview | [Day8,9_Scikit_Learn_Overview](<./Daily Progress/Day 8,9 - Scikit Learn Overview>) |
+| 8   | Linear Regression | [Day10_Linear_Regression](<./Daily Progress/Day 10 - Linear Regression>) |
 
 By: Pathmhajam aka DART

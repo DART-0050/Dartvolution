@@ -16,5 +16,7 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 8   | Linear Regression | [Day10_Linear_Regression](<./Daily Progress/Day 10 - Linear Regression>) |
 | 9   | Logistic Regression | [Day11_Logistic_Regression](<./Daily Progress/Day 11 - Logistic Regression>) |
 | 10   | Evaluation Metrics | [Day12_Evaluation_Metrics](<./Daily Progress/Day 12 - Evaluation Metrics>) |
+| 11   | KNN | [Day13_KNN](<./Daily Progress/Day 13 - KNN Algorithm>) |
+| 12   | Trees | [Day14_Trees](<./Daily Progress/Day 14 - Trees>) |
 
 By: Pathmhajam aka DART

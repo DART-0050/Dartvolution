@@ -18,5 +18,7 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 10   | Evaluation Metrics | [Day12_Evaluation_Metrics](<./Daily Progress/Day 12 - Evaluation Metrics>) |
 | 11   | KNN | [Day13_KNN](<./Daily Progress/Day 13 - KNN Algorithm>) |
 | 12   | Trees | [Day14_Trees](<./Daily Progress/Day 14 - Trees>) |
+| 13   | Feature Engineering | [Day15_Feature_Engineering](<./Daily Progress/Day 15 - Feature Engineering>) |
+| 14   | Pipelines | [Day15_Pipelines](<./Daily Progress/Day 15 - Pipelines>) |
 
 By: Pathmhajam aka DART

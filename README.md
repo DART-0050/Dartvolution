@@ -21,5 +21,6 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 13   | Feature Engineering | [Day15_Feature_Engineering](<./Daily Progress/Day 15 - Feature Engineering>) |
 | 14   | Pipelines | [Day15_Pipelines](<./Daily Progress/Day 15 - Pipelines>) |
 | 15   | HyperParameter Tuning | [Day16_HyperParameter_Tuning](<./Daily Progress/Day 16 - HyperParameter Tuning>) |
+| 16   | Capstone Project 1 | [Day17_Capstone_Project_1](<./Daily Progress/Day 17 - Capstone Project 1>) |
 
 By: Pathmhajam aka DART

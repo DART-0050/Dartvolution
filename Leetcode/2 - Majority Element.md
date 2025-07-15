@@ -42,7 +42,7 @@ def majorityElement(nums):
 
 Using a dictionary to count occurrences of each element in the list and verifying which element is the majority by comparing it to `n/2`.
 
-#### Intuition
+#### Intuitionsss
 
 This approach leverages the use of a hash map to store counts, allowing for constant time complexity checks for the count of each element.
 
@@ -73,7 +73,7 @@ def majorityElement(nums):
 
 If the array is sorted, the majority element must be present at the `n/2` index.
 
-#### Intuition
+#### Intuitions
 
 Sorting the array positions the majority element at the middle index because it appears more than half of the time in the list.
 
@@ -97,7 +97,7 @@ def majorityElement(nums):
 
 This algorithm finds the majority element by maintaining a count, incrementing for the same element, and decrementing for different elements.
 
-#### Intuition
+#### Intuitionss
 
 The algorithm uses the fact that a majority element appears more than half the time in the list, allowing us to "vote" and cancel out non-majority elements.
 

@@ -22,5 +22,14 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 14   | Pipelines | [Day15_Pipelines](<./Daily Progress/Day 15 - Pipelines>) |
 | 15   | HyperParameter Tuning | [Day16_HyperParameter_Tuning](<./Daily Progress/Day 16 - HyperParameter Tuning>) |
 | 16   | Capstone Project 1 | [Day17_Capstone_Project_1](<./Daily Progress/Day 17 - Capstone Project 1>) |
+| 17   | What is AI? | [Day18_What_is_AI](<./Daily Progress/Day 18 - What is AI>) |
+
+## Deeplearning with Pytorch
+
+| 18   | Deep Learning | [Day19_Deep_Learning](<./Daily Progress/Deeplearning - Pytorch>) |
+
+## Agentic AI
+
+| 19   | Agentic AI | [Day20_Agentic_AI](<./Agentic_AI/Contents.md>) |
 
 By: Pathmhajam aka DART

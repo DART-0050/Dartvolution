@@ -1,8 +1,16 @@
-from google.adk.agents import Agent
+from dotenv import load_dotenv
+load_dotenv()
 
-root_agent = Agent(
-    name = "greeting_agent",
-    model="llama-3.3-70b-versatile",
-    description="Greeting Agent",
-    instruction="""You are a helpful assistant that greets the user. Ask for the user's name and greet them by name.""",
+from google.adk.agents import LlmAgent
+from google.adk.models.lite_llm import LiteLlm
+
+root_agent = LlmAgent(
+    model=LiteLlm(
+        model="groq/llama-3.3-70b-versatile",
+        api_key="...",
+        api_base="https://api.groq.com/openai/v1"
+    ),
+    name="greeting_agent",
+    description="Greeting agent",
+    instruction="You are a friendly AI that warmly greets people and responds casually to greetings.",
 )

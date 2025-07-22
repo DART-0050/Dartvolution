@@ -1,20 +1,14 @@
-from google.adk.agents import LlmAgent
-from google.adk.models.lite_llm import LiteLlm
-
 from dotenv import load_dotenv
-import os
-
-# Load environment variables from .env file
 load_dotenv()
 
-api_key = os.getenv("GROQ_API_KEY")
-api_base = os.getenv("GROQ_API_BASE")
+from google.adk.agents import LlmAgent
+from google.adk.models.lite_llm import LiteLlm
 
 root_agent = LlmAgent(
     model=LiteLlm(
         model="groq/llama-3.3-70b-versatile",
-        api_key=api_key,
-        api_base=api_base,
+        api_key="...",
+        api_base="https://api.groq.com/openai/v1"
     ),
     name="greeting_agent",
     description="Greeting agent",

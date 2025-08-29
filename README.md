@@ -26,7 +26,9 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 
 ## Deeplearning with Pytorch
 
-| 18   | Deep Learning | [Day19_Deep_Learning](<./Daily Progress/Deeplearning - Pytorch>) |
+| 00   | Pytorch Basics | [Pytorch Basics](<./Deeplearning - Pytorch/00 Pytorch Basics/>) 
+| 01   | Pytorch Fundamentals | [Pytorch Fundamentals](<./Deeplearning - Pytorch/01 Fundamentals/>) 
+| 02   | Pytorch Workflow | [Pytorch Workflow](<./Deeplearning - Pytorch/02 Workflow/>) 
 
 ## Agentic AI
 

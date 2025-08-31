@@ -29,6 +29,7 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 00   | Pytorch Basics | [Pytorch Basics](<./Deeplearning - Pytorch/00 Pytorch Basics/>) 
 | 01   | Pytorch Fundamentals | [Pytorch Fundamentals](<./Deeplearning - Pytorch/01 Fundamentals/>) 
 | 02   | Pytorch Workflow | [Pytorch Workflow](<./Deeplearning - Pytorch/02 Workflow/>) 
+| 03   | Pytorch NN Classification | [Pytorch NN Classification](<./Deeplearning - Pytorch/03 NN Classification/>) 
 
 ## Agentic AI
 

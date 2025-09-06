@@ -30,9 +30,12 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 01   | Pytorch Fundamentals | [Pytorch Fundamentals](<./Deeplearning - Pytorch/01 Fundamentals/>) 
 | 02   | Pytorch Workflow | [Pytorch Workflow](<./Deeplearning - Pytorch/02 Workflow/>) 
 | 03   | Pytorch NN Classification | [Pytorch NN Classification](<./Deeplearning - Pytorch/03 NN Classification/>) 
+| 04   | Pytorch Computer Vision | [Pytorch Computer Vision](<./Deeplearning - Pytorch/04 Computer vision/>) 
+| 05   | Pytorch Transfer Learning | [Pytorch Transfer Learning](<./Deeplearning - Pytorch/07 Transfer Learning/>) 
 
 ## Agentic AI
 
 | 19   | Agentic AI | [Day20_Agentic_AI](<./Agentic_AI/Contents.md>) |
 
 By: Pathmhajam aka DART
+ 

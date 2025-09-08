@@ -32,6 +32,8 @@ This repo is a complete log of my journey from absolute beginner to an AI/ML pro
 | 03   | Pytorch NN Classification | [Pytorch NN Classification](<./Deeplearning - Pytorch/03 NN Classification/>) 
 | 04   | Pytorch Computer Vision | [Pytorch Computer Vision](<./Deeplearning - Pytorch/04 Computer vision/>) 
 | 05   | Pytorch Transfer Learning | [Pytorch Transfer Learning](<./Deeplearning - Pytorch/07 Transfer Learning/>) 
+| 06   | Pytorch Experiment Tracking | [Pytorch Experiment Tracking](<./Deeplearning - Pytorch/08 Experiment Tracking/>) 
+| 07   | Pytorch Fine Tuning | [Pytorch Fine Tuning](<./Deeplearning - Pytorch/09 Fine Tuning/>) 
 
 ## Agentic AI
 
